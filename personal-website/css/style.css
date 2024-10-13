@@ -21,7 +21,7 @@ body {
     background-color: #E95B65;
     display: flex;
     align-items: center;
-    border-bottom: 6px solid #1c3e08;
+    border-bottom: 6px solid #D21A00;
 }
 
 #navbar a {
@@ -42,7 +42,7 @@ body {
     font-weight: normal;
     font-size: 22px;
     padding-top: 22px;
-    padding-bottom: 20px;
+    padding-bottom: 21px;
 }
 
 .dropdown-container {
@@ -85,6 +85,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 6px solid #D21A00;
 }
 
 #hero .hero-content {
@@ -113,7 +114,7 @@ body {
     font-weight: normal;
     font-size: 0.8vw;
     display: inline-block;
-    background-color: #37691a;
+    background-color: #E95B65;
     color: #F9F5E9;
     text-decoration: none;
     padding: 28px;
@@ -121,8 +122,7 @@ body {
 }
 
 #hero a:hover {
-    background-color: #71b648;
-    color: #252525;
+    background-color: #D21A00;
 }
 
 #layout {
@@ -134,22 +134,13 @@ body {
     min-width: 1100px;
     max-width: 1200px;
     margin: 0px auto;
-    border: 8px solid #1c3e08;
-}
-
-h1 {
-    font-family: "Mate", serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    padding: 18px;
-    font-size: 38px;
-    color: #F9F5E9;
+    border: 8px solid #D21A00;
 }
 
 .card-container {
     display: flex;
     justify-content: space-between;
+    background-color: #628E2A;
 }
 
 .card {
@@ -159,6 +150,7 @@ h1 {
     text-align: center;
     color: #F9F5E9;
     margin: 44px;
+    background-color: #628E2A;
 }
 
 .card h3 {
@@ -181,15 +173,14 @@ h1 {
     font-family: "Englebert", cursive;
     font-weight: normal;
     display: inline-block;
-    background-color: #37691a;
+    background-color: #E95B65;
     color: #F9F5E9;
     text-decoration: none;
     padding: 24px;
 }
 
 .card a:hover {
-    background-color: #71b648;
-    color: #252525;
+    background-color: #D21A00;
 }
 
 .spacer {
@@ -198,9 +189,19 @@ h1 {
 
 .heading {
     background-color: #628E2A;
-    border-top: 6px solid #1c3e08;
-    border-bottom: 6px solid #1c3e08;
+    border: 6px solid #1c3e08;
     margin-bottom: 34px;
+    margin-top: 34px;
+}
+
+.heading h1 {
+    font-family: "Mate", serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    padding: 18px;
+    font-size: 38px;
+    color: #F9F5E9;
 }
 
 .bio {
