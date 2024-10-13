@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Me - NurturingFlower's Site</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar">
+            <a id="logo" href="index.html">
+                NURTURINGFLOWER'S SITE
+            </a>
+            <div class="dropdown-container">
+                <a href="#">ABOUT <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-menu">
+                    <a href="about-me.html">ABOUT ME</a>
+                    <a href="#">MY PASSIONS</a>
+                    <a href="#">MY HOBBIES</a>
+                    <a href="#">MY GOALS</a>
+                </div>
+            </div>
+            <div class="dropdown-container">
+                <a href="#">GALLERY <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-menu">
+                    <a href="drawing-gallery.html">DRAWINGS</a>
+                    <a href="photography-gallery.html">PHOTOGRAPHY</a>
+                    <a href="illustrator-work.html">ILLUSTRATOR</a>
+                    <a href="#">PHOTOSHOP</a>
+                </div>
+            </div>
+            <a href="contact-me.html">CONTACT ME</a>
+            <div class="dropdown-container">
+                <a href="#">MORE <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-menu">
+                    <a href="#">COMMISSIONS</a>
+                    <a href="#">COMMISSION EXAMPLES</a>
+                </div>
+            </div>
+        </div>
+        <div class="heading">
+            <h1>CONTACT ME</h1>
+        </div>
+        <div id="layout">
+            <header>
+                <h1>Contact Me</h1>
+            <p>
+                Got questions, concerns,
+                or want to commission me?
+                <br>
+                I'd love to hear from you!
+                <br>
+                You may contact me via
+                email if these are the
+                cases, and I'll get
+                back to you as soon as
+                I can.
+            </p>
+            </header>
+            <main>
+                <form 
+                    method="POST" 
+                    action="https://getform.io/f/bpjmwvmb"
+                >
+                    <div>
+                        <label for="services_id">
+                            What can I help you with?
+                        </label>
+                        <select id="services_id" name="service_selection">
+                            <option 
+                                id="default_option" 
+                                value="none" 
+                                disabled
+                                selected
+                            >
+                                Select what I can help you with
+                            </option>
+                            <option value="question">
+                                Question
+                            </option>
+                            <option value="concern">
+                                Concern
+                            </option>
+                            <option value="commission">
+                                Commission
+                            </option>
+                            <option value="commission">
+                                Misc.
+                            </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="name_id">Name</label>
+                        <input 
+                            type="text" 
+                            id="name_id" 
+                            name="name" 
+                            required 
+                            minlength="2"
+                            placeholder="E.g. Jane Doe"
+                        >
+                    </div>
+                    <div>
+                        <label for="email_id">Email</label>
+                        <input 
+                            type="email" 
+                            id="email_id" 
+                            name="email"
+                            required
+                            placeholder="E.g. jane.doe@gmail.com"
+                        >
+                    </div>
+                    <div>
+                        <label for="message_id">Message</label>
+                        <textarea 
+                            id="message_id" 
+                            name="message"
+                            placeholder="Write your message here..."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </main>
+            <footer>
+                <h2>Unless you want to contact me elsewhere?</h2>
+                <p>
+                    <i class="fa-brands fa-twitter"></i>
+                    <a href="https://x.com/xenonoahmio">
+                        My Twitter
+                    </a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com/nurtured_flower/">
+                        My Instagram
+                    </a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-discord"></i>
+                    nurturedflower
+                </p>
+            </footer>
+        </div>
+        <div id="footer">
+            <div id="footer-navbar">
+                <span>&copy; NURTUREDFLOWER</span>
+                <a href="#">MY PORTFOLIO</a>
+                <a href="#">MY VGEN</a>
+                <a href="#">MY KO-FI</a>
+            </div>
+        </div>
+    </body>
+</html>
