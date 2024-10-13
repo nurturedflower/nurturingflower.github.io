@@ -128,7 +128,7 @@ body {
 
 #layout {
     width: 1100px;
-    margin: 32px auto;
+    margin: auto;
 }
 
 .single-column {
@@ -185,7 +185,7 @@ body {
 }
 
 .spacer {
-    height: 15vh;
+    height: 10vh;
 }
 
 .heading {
@@ -264,12 +264,38 @@ body {
 
 header,
 footer {
+    font-family: "Mate", serif;
+    font-weight: bold;
+    font-style: normal;
     text-align: center;
     padding: 50px;
+    font-size: 18px;
 }
 
 header p {
-    font-size: 15px;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+footer h2 {
+    font-family: "Mate", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+footer p {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2px;
+    margin: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
 }
 
 form {
