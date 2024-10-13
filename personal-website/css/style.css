@@ -85,7 +85,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 6px solid #D21A00;
+    border-bottom: 6px solid #1c3e08;
 }
 
 #hero .hero-content {
@@ -94,8 +94,9 @@ body {
 }
 
 #hero h2 {
-    font-family: "Lobster", sans-serif;
-    font-weight: normal;
+    font-family: "Mate", serif;
+    font-weight: bold;
+    font-style: normal;
     padding-top: 32px;
     font-size: 2.5vw;
     margin-bottom: 3vh;
@@ -134,7 +135,7 @@ body {
     min-width: 1100px;
     max-width: 1200px;
     margin: 0px auto;
-    border: 8px solid #D21A00;
+    border: 8px solid #1c3e08;
 }
 
 .card-container {
