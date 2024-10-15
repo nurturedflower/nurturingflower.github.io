@@ -154,6 +154,12 @@ body {
     background-color: #628E2A;
 }
 
+.card img {
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
 .card h3 {
     font-family: "Patrick Hand SC", cursive;
     font-weight: bold;
